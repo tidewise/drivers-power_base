@@ -1,0 +1,17 @@
+<package>
+  <description brief="Base types to handle all AC and DC power status.">
+  This package has simple DC and AC source status and also Generator and Battery status
+  </description>
+  <author>Henrique Ferreira Jr./henrique.ferreira@tidewise.io</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <!--
+   To add any dependencies use the depend tag
+  <depend package="dummy-dependency-0" />
+	...
+  <depend package="dummy-dependency-n-1" />
+  <depend package="dummy-dependency-n" />
+  -->
+</package>
