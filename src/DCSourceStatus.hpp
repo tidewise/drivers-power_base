@@ -7,9 +7,9 @@ namespace power_base
 {
     struct DCSourceStatus
     {
+        base::Time time;
         float voltage;
         float current;
-        base::Time time;
     };
 
 } // end namespace power_base

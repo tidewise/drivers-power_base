@@ -7,10 +7,10 @@ namespace power_base
 {
     struct ACSourceStatus
     {
-            float voltage;
-            float current;
-            float frequency;
-            base::Time time;
+        base::Time time;
+        float voltage;
+        float current;
+        float frequency;
     };
 } // end namespace power_base
 
