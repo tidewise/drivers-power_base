@@ -5,9 +5,8 @@
 
 namespace power_base
 {
-    class ACSourceStatus
+    struct ACSourceStatus
     {
-        public:
             float voltage;
             float current;
             float frequency;

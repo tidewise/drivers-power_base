@@ -5,10 +5,10 @@
 
 namespace power_base
 {
-    class ACGeneratorStatus : public ACSourceStatus
+    struct ACGeneratorStatus : public ACSourceStatus
     {
-        public:
-            float generator_rotation_velocity;
+        // The generator rotational velocity in rad/s (SI)
+        float generator_rotational_velocity;
     };
 
 } // end namespace power_base

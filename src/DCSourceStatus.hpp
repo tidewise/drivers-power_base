@@ -5,12 +5,11 @@
 
 namespace power_base
 {
-    class DCSourceStatus
+    struct DCSourceStatus
     {
-        public:
-            float voltage;
-            float current;
-            base::Time time;
+        float voltage;
+        float current;
+        base::Time time;
     };
 
 } // end namespace power_base
