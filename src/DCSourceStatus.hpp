@@ -11,6 +11,7 @@ namespace power_base
         base::Time time;
         float voltage = base::unknown<float>();
         float current = base::unknown<float>();
+        float max_current = base::unknown<float>();
     };
 
 } // end namespace power_base
